@@ -1,0 +1,13 @@
+.link{
+    color:white;
+    border: red 1px solid;
+    border-radius: 100%;
+}
+
+.btns{
+transition: .3s;
+}
+
+.btns:hover{
+    background: red;
+}

@@ -1,0 +1,27 @@
+.skill p{
+    visibility: hidden;
+    width: max-content;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 50px;
+    padding: 4px;
+}
+
+.skill{
+    background-color: black; 
+    transition: 1s;
+    animation: float 3s infinite ease-in-out;  
+}
+
+.skill:hover p{
+    visibility: visible;
+}
+
+@keyframes float {
+    0%,100% {
+        transform: translateY(0) rotate(18deg);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+}

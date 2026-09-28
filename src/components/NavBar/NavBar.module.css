@@ -1,0 +1,31 @@
+li a{
+    color: white;
+    text-decoration: none;
+
+}
+.slider ul li:hover {
+    background: red;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+li{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+ul{
+    background:rgba(98, 99, 100, 0.66);
+}
+
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.navbar a:hover{
+    background: red;
+}

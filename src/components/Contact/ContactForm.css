@@ -1,0 +1,38 @@
+
+input{
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder{
+    color: black;
+    padding: 10px;
+}
+
+textarea{
+    width: 100%;
+    border: 1px white solid;
+    height: 80px;
+    outline: none;
+    border-radius: 10px;
+}
+
+form div{
+    width: 80%;
+}
+
+form button{
+    border: solid 1px white;
+    padding: 7px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: black;
+    color: red;
+}
