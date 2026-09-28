@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="min-h-screen scroll-mt-10 p-15 mt-10 md:scroll-mt-0 md:mt-0 relative z-52 "
+      className="scroll-mt-10 p-15 mt-10 md:scroll-mt-0 md:mt-0 relative z-52 "
     >
       <Heading title="Contact" />
       <p className="hidden md:block text-[60px]  text-white font-bold">
