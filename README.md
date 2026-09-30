@@ -55,13 +55,6 @@ My current interests include:
 * React.js
 * Tailwind CSS
 
-### Backend / Programming
-
-* Python
-* Django
-* MySQL
-* MongoDB
-
 ### Tools
 
 * Git
