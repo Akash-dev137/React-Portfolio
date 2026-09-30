@@ -11,8 +11,8 @@ const Project = () => {
       image: Portfolio,
       bio: `A modern and responsive portfolio website developed to showcase my skills, projects, certifications, and achievements.
           The website provides recruiters with an overview of my technical background and development experience.`,
-      github: "#",
-      live: "#",
+      github: "https://github.com/Akash-dev137/React-Portfolio",
+      live: "https://akash-portfolio-akash-dev137.vercel.app/",
     },
     {
       name: "AI Datalyze",
