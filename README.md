@@ -6,7 +6,7 @@ The portfolio is designed with a **dark black & red theme**, hexagonal backgroun
 
 ## 🌐 Live Demo
 
-**Portfolio:** YOUR_VERCEL_URL
+**Portfolio:** https://akash-portfolio-akash-dev137.vercel.app/
 
 ---
 
