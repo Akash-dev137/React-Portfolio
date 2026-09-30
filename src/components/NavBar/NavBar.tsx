@@ -16,6 +16,7 @@ const NavBar = () => {
           >
             <nav className={`${styles.navbar} flex justify-around border-1 border-[red] w-[500px] bg-white/30 p-2 rounded-full`}>
               <a href="#home">Home</a>
+              <a href="#about">About</a>
               <a href="#skills">Skills</a>
               <a href="#projects">Projects</a>
               <a href="#certifications">Certifications</a>

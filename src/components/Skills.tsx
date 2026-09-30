@@ -45,8 +45,8 @@ const Skills = () => {
     <div id="skills" className="min-h-screen scroll-mt-20 md:scroll-mt-0 relative z-52 ">
       <Heading title="Skills" />
       <div className="p-10">
-        <p className="hidden md:block text-[60px] text-white font-bold p-5">Skills</p>
-        <div className="md:flex-col">
+        <p className="hidden md:block text-[60px] text-white font-bold p-5 pb-0">Skills</p>
+        <div className=" w-[100%] flex flex-col gap-4 md:flex-row  flex-wrap md:gap-5 justify-center">
           <SkillCard title="FrontEnd" images={frontend} />
           <SkillCard title="BackEnd" images={backend} />
           <SkillCard title="Tools" images={tools} />

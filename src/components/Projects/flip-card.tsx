@@ -43,14 +43,14 @@ export function FlipCard({ data }: FlipCardProps) {
 
   return (
     <div
-      className="mt-2 relative w-full  h-65 md:w-[350px] md:h-[250px] perspective-1000 cursor-pointer mx-auto"
+      className="mt-2 relative w-full  h-65 md:w-[350px] md:h-[250px] perspective-1000 cursor-pointer"
       onClick={handleClick}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
       {/* FRONT: Profile */}
       <motion.div
-        className="absolute inset-0 backface-hidden rounded-xl h-[250px] border border-foreground/20 flex flex-col items-center justify-center bg-gradient-to-br from-muted via-background to-muted text-center"
+        className="absolute inset-0 backface-hidden rounded-xl h-[250px] border-3 border-foreground/20 flex flex-col items-center justify-center bg-gradient-to-br from-muted via-background to-muted text-center"
         animate={isFlipped ? "back" : "front"}
         variants={cardVariants}
         style={{

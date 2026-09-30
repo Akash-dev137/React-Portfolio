@@ -5,6 +5,7 @@ import { FaSquareGithub } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 import { FiMail } from "react-icons/fi";
 import styles from "./Home.module.css";
+import TextType from "../ui components/TypeText/TextType";
 
 const Home = () => {
   return (
@@ -13,11 +14,11 @@ const Home = () => {
         className="flex flex-col p-5 lg:flex-row lg:p-15 z-50"
         style={{ marginTop: "45px" }}
       >
-        <div className="z-50 border border-white p-5 rounded-xl md:!border-0 lg:w-[800px]">
-          <div className="flex flex-col text-[60px] font-bold md:text-[80px] md:flex-row ">
-            <p className="text-white">Hi, I'm</p>
-            <p className="text-[red] md:pl-5">Akash R</p>
+        <div className="z-50 border border-white p-5 rounded-xl md:!border-0 lg:w-[850px]">
+          <div className="flex flex-col text-[55px] font-bold md:text-[80px] md:flex-row ">
+            <TextType text="Hi I'm Akash R"/>
           </div>
+          
           <p className="text-white text-[18px] font-bold md:text-xl">
             B.Sc. Computer Science Student
           </p>

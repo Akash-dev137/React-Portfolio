@@ -36,13 +36,16 @@ The application provides an intuitive graphical interface and supports simultane
       <Heading title="Projects" />
       <br />
       <br />
-      <p className="hidden md:block text-[60px] text-white font-bold mb-5">
+      <p className="hidden md:block text-[60px] text-white font-bold p-5">
         Projects
       </p>
-      <div className="flex flex-col justify-center items-center relative z-52 text-white  py-3 p-3 rounded-xl bg-white/20 md:flex-row flex-wrap gap-1">
+      <div className="md:flex justify-center">
+
+      <div className="flex flex-col justify-center items-center relative z-52 text-white  py-3 p-3 rounded-xl md:flex-row flex-wrap gap-4">
         {projects.map((project) => (
           <FlipCard data={project} />
         ))}
+      </div>
       </div>
     </div>
   );

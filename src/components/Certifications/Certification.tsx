@@ -33,7 +33,7 @@ const Certification = () => {
         <p className="hidden md:block text-[60px] text-white font-bold p-5">
           Certifications
         </p>
-        <div className="flex flex-col md:flex-row  gap-4 w-full justify-center">
+        <div className="flex flex-col md:flex-row  gap-4 w-full justify-center items-center">
           {certificates.map((certificate) => (
             <CertificateCard
               title={certificate.title}
