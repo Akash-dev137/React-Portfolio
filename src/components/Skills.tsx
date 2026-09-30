@@ -42,7 +42,7 @@ const Skills = () => {
   ];
 
   return (
-    <div id="skills" className="min-h-screen scroll-mt-20 md:scroll-mt-0 relative z-52 ">
+    <div id="skills" className="mt-10 md:mt-0 min-h-screen scroll-mt-20 md:scroll-mt-0 relative z-52 ">
       <Heading title="Skills" />
       <div className="p-10">
         <p className="hidden md:block text-[60px] text-white font-bold p-5 pb-0">Skills</p>
