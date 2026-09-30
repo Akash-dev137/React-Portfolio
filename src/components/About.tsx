@@ -8,7 +8,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <div className="p-5 min-h-screen scroll-mt-20 md:scroll-mt-0" id="about">
+    <div className="p-5 min-h-screen scroll-mt-20 md:scroll-mt-0 mb-20 md:mb-0" id="about">
       <Heading title="About Me" />
       <p className="hidden md:block text-[60px] text-white relative font-bold z-52 p-5 pb-0">
         About

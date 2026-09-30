@@ -69,7 +69,7 @@ const Home = () => {
         >
           <img
             src={image}
-            className="rounded-[50%] w-[400px] bg-[red] border-red-500"
+            className="rounded-[70px] w-[400px] bg-[red] border border-2"
             alt=""
           />
         </div>
