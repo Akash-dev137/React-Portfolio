@@ -49,16 +49,16 @@ const Home = () => {
             </a>
           </div>
           <div className="flex gap-4 p-[10px] mt-4">
-            <a className={`text-[28px] p-2 ${styles.link}`} href="">
+            <a className={`text-[28px] p-2 ${styles.link}`} href="https://github.com/Akash-dev137" target="_blank">
               <FaSquareGithub />
             </a>
-            <a className={`text-[28px] p-2 ${styles.link}`} href="">
+            <a className={`text-[28px] p-2 ${styles.link}`} href="https://www.linkedin.com/in/akash-dev137/" target="_blank">
               <FaLinkedin />
             </a>
-            <a className={`text-[28px] p-2 ${styles.link}`} href="">
+            <a className={`text-[28px] p-2 ${styles.link}`} href="https://leetcode.com/u/tobi_akash/" target="_blank">
               <SiLeetcode />
             </a>
-            <a className={`text-[28px] p-2 ${styles.link}`} href="">
+            <a className={`text-[28px] p-2 ${styles.link}`} href="#contact">
               <FiMail />
             </a>
           </div>
