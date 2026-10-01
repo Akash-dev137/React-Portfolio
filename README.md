@@ -140,7 +140,6 @@ Visitors can contact me directly through the portfolio's contact section.
 
 ![Contact Section](./screenshots/contact.png)
 
-> Create a `screenshots` folder in the repository and place the corresponding screenshots inside it.
 
 ---
 
@@ -218,8 +217,6 @@ portfolio/
 ├── README.md
 └── ...
 ```
-
-> Adjust the structure above if your actual project folders are different.
 
 ---
 
